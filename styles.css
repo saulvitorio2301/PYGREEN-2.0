@@ -1,15 +1,11 @@
 
 html {
-    background-color: #395756;
-    background-image: url(folhas.png);
+    background-color:  #1B3022;
+  
 }
+
 
 header {
-    background-color: #1B3022;
-}
-
-.bemvindos {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
+    background-color:  #5ca25c;
+    background-image: url(LogoPygreen.png);
 }

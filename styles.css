@@ -1,11 +1,17 @@
-
-html {
-    background-color:  #1B3022;
-  
+html{
+    background-image: url(imagens/background1.png);
 }
 
-
 header {
-    background-color:  #5ca25c;
-    background-image: url(LogoPygreen.png);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: #62a261;
+    position:fixed;
+    width: 200%;
+    height: 50px;
+    top: 0;
+   }
+
+.pygreen{
+    font-size: 40px;
+
 }

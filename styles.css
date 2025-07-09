@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
 html{
     background-image: url(imagens/background1.png);
 }
@@ -11,7 +13,14 @@ header {
     top: 0;
    }
 
+  .logo-pygreen{
+    height: 50px;
+    width: 50px;
+   }
+
 .pygreen{
     font-size: 40px;
-
-}
+    font-family: "Aladin";
+    height: 40px;
+    width: 50px;
+    }

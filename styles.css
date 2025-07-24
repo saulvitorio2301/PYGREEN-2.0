@@ -31,11 +31,12 @@ header {
     }
 
 #bemvindo{
-    flex-grow: 0; 
-    font-size: 100px;
-    width: 1000px;
-    position: absolute;
-    left: 600px;
-    top: 200px
+  color: white ;
+  flex-grow: 0; 
+  font-size: 100px;
+  width: 1000px;
+  position: absolute;
+  left: 600px;
+  top: 200px
 }
 

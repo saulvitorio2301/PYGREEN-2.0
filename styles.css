@@ -1,10 +1,12 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 .container{
   background-image: url(imagens/background1.png);
   background-repeat: repeat;
   background-position-x: center;
   background-size: cover;
   display: flex;
+  font-size: 3rem;
 }
 header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -22,44 +24,54 @@ header {
     width: 50px;
    }
 
-#pygreen{
-  flex-grow: 0;     /* para não crescer demais */
-  width: -80px;     /* ajuste a largura */
-  margin:-72px;   /* centraliza */
-  text-align: center;
-    }
+.pygreen{
+  height: 50px;
+  width: 50px;
+  flex-grow: 0;
+  width: -80px;
+  margin:-95px;  
+  position: absolute;
+  left: 150px;
+  }
 
-#bemvindo{
+.bemvindo{
   margin: auto;
   text-align: center;
   color: white ;
   flex-grow: 0; 
-  font-size: 100px;
+  font-size: 2em;
   position: absolute;
-  left: 500px;
-  top: 200px
+  left: 400px;
+  top: 200px;
+  background-size: cover;
 }
+
 .text-entrada1{
   margin: auto;
   text-align: center;
   color: white ;
   flex-grow: 0; 
-  font-size: 25px;
+  font-size: 0.5em;
   position: absolute;
-  left: 300px;
+  left: 0px;
   top: 370px;
+  background-size: cover;
 }
 
-.text-entrada2{
-  margin: auto;
+.botao {
+  background-color: #1C5033;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  color: white ;
-  flex-grow: 0; 
-  font-size: 25px;
+  font-family: 'slackey';
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
   position: absolute;
-  left: 50px;
-  top: 395px;
-  
+  top:500px;
+  left: 640px;
+  border-radius: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -67,5 +79,11 @@ header {
     width: 100%;
     flex-direction: column;
   }
+
 }
 
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}

@@ -75,7 +75,7 @@ header {
   transition-duration: 0.4s;
 }
 .botao:hover{
-  background-color: #123d25;
+  background-color: #16442b;
 }
 
 @media screen and (max-width: 768px) {

@@ -26,13 +26,13 @@ header {
 
 .pygreen{
   color: #33562C;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   flex-grow: 0;
   width: -80px;
   margin:-95px;  
   position: absolute;
-  bottom: 110px;
+  bottom: 130px;
   left: 150px;
 
   }

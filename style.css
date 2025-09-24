@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
 body {
-  background-image: url(imagens/background1.png);
+  background-image: url(/assets/img/background1.png);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;

@@ -1,105 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
-.container{
+body {
   background-image: url(imagens/background1.png);
   background-repeat: repeat;
-  background-position-x: center;
+  background-position: center;
   background-size: cover;
   display: flex;
-  font-size: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Slackey', cursive;
+  color: white;
+  min-height: 80vh;
+  margin: 0;
 }
+
 header {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    background: #33562C;
-    position:fixed;
-    width: 100%;
-    height: 50px;
-    left: 0;
-    top: 0;
-    margin: 0%;
-   }
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  background: #33562C;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
 
-.logo-pygreen{
-    height: 50px;
-    width: 50px;
-   }
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 20px;
+}
 
-.pygreen{
+.logo-pygreen {
   height: 50px;
   width: 50px;
-  flex-grow: 0;
-  width: -80px;
-  margin:-95px;  
-  position: absolute;
-  left: 150px;
-
-  }
-
-.bemvindo{
-  margin: auto;
-  text-align: center;
-  color: white ;
-  flex-grow: 0; 
-  font-size: 2em;
-  position: absolute;
-  left: 400px;
-  top: 170px;
-  background-size: cover;
 }
 
-.text-entrada1{
-  margin: auto;
-  text-align: center;
-  color: white ;
-  flex-grow: 0; 
-  font-size: 0.5em;
-  position:absolute ;
-  left: 300px;
-  top: 320px;
-  background-size: cover;
+.pygreen {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
 }
 
-p{
-  width: 1000px;
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.bemvindo {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 10px;
+}
+
+.text-entrada1 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+
+p {
+  width: auto;
+  max-width: 1000px;
 }
 
 .botao {
   background-color: #33562C;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 30px 50px;
   text-align: center;
-  font-family: 'slackey';
   text-decoration: none;
-  display: inline-block;
-  font-size: 50px;
-  position: absolute;
-  top:500px;
-  left: 670px;
-  border-radius: 40px;
-}
-.botao:hover{
-  background-color: #294523;
+  font-size: 2rem;
+  border-radius: 50px;
   transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 0px;
 }
 
-@media screen and (max-width: 768px) {
-  .container{
-    width: 100%;
-    flex-direction: column;
-  }
-
+.botao:hover {
+  background-color: #294523;
 }
 
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 18px;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+  display: flex;
+  margin-left: auto;
 }
 
-@media screen and (max-width: 768px) {
-  .bemvindo {
-    font-size: 50px;
-    
-  }
+ul li a {
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #294523;
 }
